@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-image: url("./imagenes/coche\ rojo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 600px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.desplegable{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    width: 900px;
+    align-self: center;
+    box-shadow: 0 1px 0 0 white;
+    align-self: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+
+.textogrande{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.letra{
+    margin: 10px;
+    padding: 10px;
+    color:  rgb(117, 116,166);
+    font-size: 150%;
+    
+}
+.listacoches-list{
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 0 0px rgb(117, 116,166);
+    font-size: 150%;  
+}
+
+.li{
+   
+    float: left;
+    
+}
+.li a{
+   display: flex;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+       
+    }
+    li a:hover {
+        color:black;
+        font-size: 150%;
+      }
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color:  rgb(117, 116,166);
+    }
+
+.icono{
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    gap: 10px;
+}
+
+
+.boton{
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: azure;
+    margin: 20px;
+    padding: 20px;
+}
+
+.listacoches-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+ 
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    width: 250px;
+    align-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.tarjeta img{
+    height: 150px;
+
+    width: 250px;;
+    
+    object-fit: cover;;
+}
+
+.titulo1{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-align: justify;
+    
+}
+.titulo2{
+    font-size: medium;
+    color:rgb(117, 116,166);
+}
+.titulo3{
+    font-size: small;
+    font-weight: bold;
+    color: black;
+}
+
+.cochesvarios{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.tarjeta1{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    border-color: rgba(240, 255, 255, 0.393);
+    border-style: groove;
+    
+}
+.tarjeta1 img{
+    height: 200px;
+
+    width: 250px;;
+    
+    object-fit: cover;;
+}
+
+.fotoscoches{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.multimedia1{
+    display: flex;
+    flex-direction: column;
+    width: 565px;
+    align-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    border-color: rgba(240, 255, 255, 0.393);
+    border-style: groove;
+    
+}
+.multimedia1 img{
+    height: 200px;
+
+    width: 565px;;
+    
+    object-fit: cover;;
+}
+
+.multimedia{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 100px;
+    align-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(201, 212, 222);
+    
+}
+.info1 img{
+    margin-left: 70px;
+    padding: 40px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(201, 212, 222);
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.atencion{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    align-self: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin-right: 10%;
+}
+
+.atencion2{
+    display: flex;
+    flex-direction: column;
+ 
+    
+ }
+ .avisos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-self: center;
+}
+   
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 30px;
+    font-size: small;
+    margin-left: 180px;
+}
+
+
